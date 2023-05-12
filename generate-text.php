@@ -1,5 +1,5 @@
 <?php
-include_once './markov.php';
+include_once './src/markov.php';
 
 $markov = new Markov();
 
