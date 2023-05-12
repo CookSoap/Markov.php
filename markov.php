@@ -70,7 +70,7 @@ class Markov {
         return $this->possibilities;
       }
 
-      if (isset($this->possibilities[$possibility])) { // тут было !$this->possibilities[$possibility]
+      if (isset($this->possibilities[$possibility])) { 
         return $this->possibilities[$possibility];
       } else {
         throw new Exception("There is no such possibility called $possibility");
