@@ -2,6 +2,7 @@
 Text generator based on Markov chains
 
 <h2>Example</h2>
+```
 include_once './src/markov.php';
 
 $markov = new Markov();
@@ -21,5 +22,5 @@ $markov->train();
 // Generate an output
 $text = $markov->generateRandom(30);
 echo $text;
-
+```
 <h2>Example for VK API</h2>
