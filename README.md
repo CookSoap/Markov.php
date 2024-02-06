@@ -1,10 +1,8 @@
 # Markov.php
 Text generator based on Markov chains
 
-
+# Example
 ```php
-
-
 
 include_once './src/markov.php';
 
@@ -26,4 +24,4 @@ $markov->train();
 $text = $markov->generateRandom(30);
 echo $text;
 
-
+```
