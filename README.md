@@ -25,3 +25,6 @@ $text = $markov->generateRandom(30);
 echo $text;
 
 ```
+
+# With VK API:
+
